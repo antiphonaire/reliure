@@ -85,7 +85,7 @@ header .slogan{
 
 #contact{
 	min-height: calc(100vh - 80px);
-	background-image: url(../img/contact.jpg);
+	background-image: url(../img/mail.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
