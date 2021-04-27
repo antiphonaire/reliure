@@ -84,7 +84,6 @@ header .slogan{
 }
 
 #contact{
-	min-height: calc(100vh - 80px);
 	background-image: url(../img/mail.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -92,7 +91,7 @@ header .slogan{
 	
 }
 #contact .row{
-	min-height: calc(100vh - 80px);
+	min-height: calc(85vh - 80px);
 }
 
 .formContact{
@@ -104,9 +103,6 @@ footer{
 	background-color: rgba(0, 0, 0, .8);
 	color:#999;
 	padding-top: 1rem;
-	padding-bottom: .5rem;
-
-
 }
 .adresse{
 	font-size: 1rem;
