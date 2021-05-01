@@ -61,6 +61,14 @@ header .slogan{
 #presentation .media:hover{
 	background-color: rgba(130, 130, 130, 0.3);	
 }
+
+#reliure .row{
+	min-height: calc(85vh - 80px);
+}
+
+
+
+
 .fondLivre{
 	min-height: calc(100vh - 80px);
 	background-image: url(../img/avis.jpg);
