@@ -1,132 +1,128 @@
-.navbar-brand img{
-	max-height: 50px;
+.navbar-brand img {
+  max-height: 50px;
 }
 
-header .row{
-	min-height: 70vh;
-	background-image: url(../img/accueil.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	align-items: center;
-	color:white;
-	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+header .row {
+  min-height: 70vh;
+  background-image: url(../img/accueil.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  align-items: center;
+  color: white;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
 }
 
-header .formReservation{
-	background-color: rgba(0,0,0,0.5);
-	min-height: 70vh;
-	display: flex;
-	align-items: center;
+header .formReservation {
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
 }
 
-
-header h1{
-	font-family: 'Dancing Script', cursive;
-	
+header h1 {
+  font-family: "Dancing Script", cursive;
 }
 
-header h2{
-	font-family: 'Dancing Script', cursive;
-	margin-bottom: 50px;
+header h2 {
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 50px;
 }
 
-
-header .slogan{
-	display: flex;
-	min-height: 70vh;
-	align-items: flex-end;
-	justify-content: flex-end;
-}	
-	
-@media (max-width: 768px){
-	header .slogan{
-		display:none;
-	}
+header .slogan {
+  display: flex;
+  min-height: 70vh;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
-#presentation .media span{
-	color:#5d3c32;
-	font-size: 3rem;
-	width: 4rem;
-	text-align: center;
+@media (max-width: 768px) {
+  header .slogan {
+    display: none;
+  }
 }
 
-#presentation .media{
-	padding: 1rem 1rem;
-	border-radius: 20px;
-	transition: all .3s ease-in-out;
+#presentation .media span {
+  color: #5d3c32;
+  font-size: 3rem;
+  width: 4rem;
+  text-align: center;
 }
 
-#presentation .media:hover{
-	background-color: rgba(130, 130, 130, 0.3);	
+#presentation .media {
+  padding: 1rem 1rem;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
 }
 
-#reliure .row{
-	min-height: calc(85vh - 80px);
+#presentation .media:hover {
+  background-color: rgba(130, 130, 130, 0.3);
 }
 
-
-
-
-.fondLivre{
-	min-height: calc(100vh - 80px);
-	background-image: url(../img/avis.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+#video .row {
+  min-height: 70vh;
+  padding: 2rem 1rem;
 }
 
-
-.avisClient{
-	min-height: calc(100vh - 80px);
-	background-color: #d3dae4;
-}
-.avisClient span{
-	font-size: 5rem;
-	color:#17a2b8;
-}
-.avisClient h5{
-	font-size: 2rem;
-	color:#888;
+#avis .row {
+  min-height: calc(85vh - 80px);
 }
 
-#contact{
-	background-image: url(../img/mail.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	
-}
-#contact .row{
-	min-height: calc(85vh - 80px);
+.fondLivre {
+  min-height: calc(100vh - 80px);
+  background-image: url(../img/avis.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.formContact{
-	background-color: rgba(255, 255, 255, 0.5);	
-	padding: 2rem 1rem;
+.avisClient {
+  min-height: calc(100vh - 80px);
+  background-color: #d3dae4;
+}
+.avisClient span {
+  font-size: 5rem;
+  color: #17a2b8;
+}
+.avisClient h5 {
+  font-size: 2rem;
+  color: #888;
 }
 
-footer{
-	background-color: rgba(0, 0, 0, .8);
-	color:#999;
-	padding-top: 1rem;
+#contact {
+  background-image: url(../img/mail.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-.adresse{
-	font-size: 1rem;
-}
-
-.logo{
-	font-size: 3rem;
+#contact .row {
+  min-height: calc(85vh - 80px);
 }
 
-footer a{
-	color:#999;
-	transition: all .2s ease-in-out;
-
+.formContact {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2rem 1rem;
 }
 
-footer a:hover{
-	color:#fff;
-	text-decoration: none;
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #999;
+  padding-top: 1rem;
+}
+.adresse {
+  font-size: 1rem;
+}
+
+.logo {
+  font-size: 3rem;
+}
+
+footer a {
+  color: #999;
+  transition: all 0.2s ease-in-out;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
 }
