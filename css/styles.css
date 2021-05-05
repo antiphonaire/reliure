@@ -23,7 +23,7 @@ header .row {
 
 header .formReservation {
   background-color: rgba(0, 0, 0, 0.5);
-  min-height: 70vh;
+  height: 70vh;
   display: flex;
   align-items: center;
 }
@@ -39,7 +39,7 @@ header h2 {
 
 header .slogan {
   display: flex;
-  min-height: 70vh;
+  height: 70vh;
   align-items: flex-end;
   justify-content: flex-end;
 }
@@ -68,12 +68,12 @@ header .slogan {
 }
 
 #video .row {
-  min-height: 70vh;
+  height: 70vh;
   padding: 2rem 1rem;
 }
 
 #avis .row {
-  min-height: calc(85vh - 80px);
+  height: calc(85vh - 80px);
 }
 
 .fondLivre {
