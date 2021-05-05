@@ -1,14 +1,22 @@
+body {
+  margin: 0;
+}
+
 .navbar-brand img {
   max-height: 50px;
 }
 
 header .row {
-  min-height: 70vh;
+  height: 70vh;
   background-image: url(../img/accueil.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
   background-attachment: fixed;
+  display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
   color: white;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
 }
@@ -69,11 +77,16 @@ header .slogan {
 }
 
 .fondLivre {
-  min-height: calc(100vh - 80px);
+  height: calc(100vh - 80px);
   background-image: url(../img/avis.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .avisClient {
@@ -94,9 +107,10 @@ header .slogan {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center center;
 }
 #contact .row {
-  min-height: calc(85vh - 80px);
+  height: calc(85vh - 80px);
 }
 
 .formContact {
