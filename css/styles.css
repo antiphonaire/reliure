@@ -100,10 +100,8 @@ header .slogan {
 
 #contact {
   background-color: rgba(0, 0, 0, 0.8);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
+  color: #999;
+  padding-top: 1rem;
 }
 #contact .row {
   height: calc(85vh - 80px);
