@@ -99,7 +99,7 @@ header .slogan {
 }
 
 #contact {
-  background-image: url(../img/mail.jpg);
+  background-color: rgba(0, 0, 0, 0.8);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
